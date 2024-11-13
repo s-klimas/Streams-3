@@ -1,9 +1,9 @@
 package pl.sebastianklimas.part1.dao;
 
+import pl.sebastianklimas.part1.domain.Country;
+
 import java.util.List;
 import java.util.Set;
-
-import pl.sebastianklimas.part1.domain.Country;
 
 public interface CountryDao {
 	Country findCountryByCode(String code);

@@ -1,8 +1,8 @@
 package pl.sebastianklimas.part1.dao;
 
-import java.util.List;
-
 import pl.sebastianklimas.part1.domain.City;
+
+import java.util.List;
 
 public interface CityDao {
 	City findCityById(int id);

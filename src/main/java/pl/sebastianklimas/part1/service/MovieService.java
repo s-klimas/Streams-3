@@ -1,12 +1,12 @@
 package pl.sebastianklimas.part1.service;
 
-import java.util.Collection;
-import java.util.List;
-
 import pl.sebastianklimas.part1.domain.Director;
 import pl.sebastianklimas.part1.domain.Genre;
 import pl.sebastianklimas.part1.domain.Movie;
 import pl.sebastianklimas.part1.model.CriteriaBean;
+
+import java.util.Collection;
+import java.util.List;
 
 public interface MovieService {
 	Movie findMovieById(int id);

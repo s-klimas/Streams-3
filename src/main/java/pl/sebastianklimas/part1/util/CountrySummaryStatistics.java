@@ -1,9 +1,9 @@
 package pl.sebastianklimas.part1.util;
 
+import pl.sebastianklimas.part1.domain.Country;
+
 import java.util.Comparator;
 import java.util.function.Consumer;
-
-import pl.sebastianklimas.part1.domain.Country;
 
 public class CountrySummaryStatistics implements Consumer<Country> {
 	private Comparator<Country> comparator;

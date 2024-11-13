@@ -1,10 +1,10 @@
 package pl.sebastianklimas.part1.util;
 
-import java.util.function.Consumer;
-import java.util.function.Supplier;
-
 import pl.sebastianklimas.part1.domain.City;
 import pl.sebastianklimas.part1.domain.Country;
+
+import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 public class CountryCitySummaryStatistics implements Consumer<Country> {
     private City min;
