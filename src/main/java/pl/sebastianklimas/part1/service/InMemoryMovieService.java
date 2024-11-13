@@ -1,16 +1,15 @@
 package pl.sebastianklimas.part1.service;
 
+import pl.sebastianklimas.part1.domain.Director;
+import pl.sebastianklimas.part1.domain.Genre;
+import pl.sebastianklimas.part1.domain.Movie;
+import pl.sebastianklimas.part1.model.CriteriaBean;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
-
-import pl.sebastianklimas.part1.domain.Director;
-import pl.sebastianklimas.part1.domain.Genre;
-import pl.sebastianklimas.part1.domain.Movie;
-import pl.sebastianklimas.part1.model.CriteriaBean;
 
 public class InMemoryMovieService implements MovieService {
 

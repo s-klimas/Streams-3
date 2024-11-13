@@ -1,14 +1,10 @@
 package pl.sebastianklimas.part1.dao;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-
 import pl.sebastianklimas.part1.domain.City;
 import pl.sebastianklimas.part1.domain.Country;
+
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class InMemoryWorldDao implements WorldDao {
 	private Map<String, Country> countries;
